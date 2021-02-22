@@ -1,0 +1,45 @@
+{
+  "scripts": {
+    "dev": "webpack-dev-server --open",
+    "test": "jest --colors --coverage"
+  },
+  "dependencies": {
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-enzyme"
+    ],
+    "testEnvironment": "enzyme",
+    "testEnvironmentOptions": {
+      "enzymeAdapter": "react16"
+    }
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/enzyme": "^3.10.8",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/jest": "^26.0.20",
+    "@types/node": "12.7.2",
+    "@types/react": "16.9.2",
+    "@types/react-dom": "16.9.0",
+    "chai": "^4.2.0",
+    "css-loader": "3.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "html-webpack-plugin": "3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "26.6.3",
+    "jest-environment-enzyme": "^7.1.2",
+    "jest-enzyme": "^7.1.2",
+    "source-map-loader": "0.2.4",
+    "style-loader": "1.0.0",
+    "ts-jest": "^26.5.0",
+    "ts-loader": "6.0.4",
+    "typescript": "3.8.3",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.7",
+    "webpack-dev-server": "3.8.0"
+  }
+}
